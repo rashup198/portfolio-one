@@ -14,4 +14,13 @@
       @apply px-4;
       @apply cursor-pointer;
     }
+
   }
+
+  .content-div{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+  }
+
