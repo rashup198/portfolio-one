@@ -10,6 +10,7 @@ import node from "../assets/node.png"
 import mongo from "../assets/mongo.png"
 import aws from "../assets/aws.png"
 import postm from "../assets/postman.png"
+import firebase from "../assets/firebase.png"
 
 
 
@@ -52,7 +53,7 @@ const Skills = () => {
                     <img src={express} className='w-30 mx-auto mt-[70px]'></img>
                     <p className='my-4'>Express.js</p>
                 </div>
-                
+
                 <div  className='shadow-md m-4 shadow-[#040c16] hover:scale-110 duration-200'>
                     <img src={postm} className='w-[100vw] h-[20vh] mt-[50px]'></img>
                     <p className=' text-center my-4'>Postman</p>
@@ -77,6 +78,11 @@ const Skills = () => {
                 <div  className='shadow-md m-4 shadow-[#040c16] hover:scale-110 duration-200'>
                     <img src={aws} className='w-30 mx-auto'></img>
                     <p className='my-4'>AWS</p>
+                </div>
+
+                <div  className='shadow-md m-4 shadow-[#040c16] hover:scale-110 duration-200'>
+                    <img src={firebase} className='w-30 mx-auto'></img>
+                    <p className='my-4'>Firebase</p>
                 </div>
 
                 <div  className='shadow-md m-4 shadow-[#040c16] hover:scale-110 duration-200'>
