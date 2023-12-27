@@ -13,10 +13,11 @@ const Navbar = () => {
     const handleclick =()=>setNav(!nav);
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      
+      <Link to="home" smooth={true} duration={500} className=' cursor-pointer'>
       <div>
             <img src={Logo} alt='logo img'width={"150px"} ></img>
       </div>
+      </Link>
 
      {/* menu */}
         <ul className='hidden md:flex gap-7'>
