@@ -8,12 +8,12 @@ const Home = () => {
       {/* container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         {/* text */}
-        <p className='text-pink-600'>Hi, my name is </p>
+        <p className='text-pink-600 text-xl'>Hi, my name is </p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Priyanshu Pandey</h1>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer</h1>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I'm a Full Stack Developer creating end-to-end solutions, from the server to the client. With expertise in both frontend and backend technologies, I build robust and scalable applications. Let's create exceptional digital experiences together!
-        </p>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Engineer</h1>
+        <p className='text-[#8892b0] py-4 max-w-[700px] text-xl'>
+        I'm a Software Engineer specializing in developing and optimizing scalable software solutions. With a strong foundation in both frontend and backend technologies, I create efficient and user-friendly applications. Let's build innovative software together!
+</p>
 
         <div>
           <Link to='project' smooth={true} duration={500}>

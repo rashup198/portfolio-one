@@ -5,15 +5,18 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Experience from './components/Experience';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
      <Navbar></Navbar>
      <Home></Home>
-     <About></About>
-     <Skills></Skills>
+     
      <Work></Work>
+     <Experience></Experience>
+     <Skills></Skills>
+     
      <Contact></Contact>
   
     </div>
