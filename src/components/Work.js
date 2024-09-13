@@ -5,7 +5,7 @@ import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/work6.png";
 import project5 from "../assets/projects/project2.png";
 import project6 from "../assets/projects/work2.png";
-import { HiArrowNarrowRight } from 'react-icons/hi';
+
 
 const projects = [
   {
