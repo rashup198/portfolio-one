@@ -2,6 +2,19 @@ import React from 'react';
 
 const experiences = [
   {
+    position: 'Implementation Engineer (Intern + Full-Time)',
+    company: 'Anphonic.ai',
+    location: 'Remote',
+    duration: 'October 2024 – Present',
+    achievements: [
+      'Working closely with clients to understand requirements and successfully deploy Anphonic’s solutions to their systems.',
+      'Collaborated with the product and engineering teams to implement and configure product features based on client use-cases.',
+      'Handled end-to-end onboarding and implementation, including data mapping, integration testing, and rollout.',
+      'Provided technical support and documentation to ensure smooth transition to the support team after implementation.',
+      'Played a key role in refining internal tools and workflows, improving onboarding time and customer satisfaction.',
+    ],
+  },
+  {
     position: 'SDE Intern',
     company: 'Healspan',
     location: 'Bangalore',
@@ -28,6 +41,7 @@ const experiences = [
       'Leveraged AWS services for efficient hosting, storage, and deployment, achieving high scalability and reliability.',
     ],
   },
+  
 ];
 
 const Experience = () => {
