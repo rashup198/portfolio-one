@@ -89,7 +89,7 @@ const Navbar = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[3px] duration-300 bg-[#fb0838]'>
               <a className='flex justify-between item-center w-full text-gray-300' href = "mailto:rashup198@gmail.com" target='blank'>Email <HiOutlineMail size={30}></HiOutlineMail></a></li>
               <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[3px] duration-300 bg-[#565f69]">
-              <a className='flex justify-between item-center w-full text-gray-300' href='https://drive.google.com/file/d/10p8zwoyYd1A0ak-RsjnzFU_GDjgdugVg/view?usp=sharing' target='blank'>Resume <BsFillPersonFill size={30}></BsFillPersonFill></a></li>
+              <a className='flex justify-between item-center w-full text-gray-300' href='https://drive.google.com/file/d/1SvWoK3Kf3r9lE31fHr-vNUz1hJ51QqJU/view?usp=drive_link' target='blank'>Resume <BsFillPersonFill size={30}></BsFillPersonFill></a></li>
             
         </ul>
       </div>
